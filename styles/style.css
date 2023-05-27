@@ -1,13 +1,75 @@
 @import'./fonts.css';
 
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-font-family: 'rubik';
+body {
+    font-family: 'rubik';
+    color: #1d1d1b;
+}
+
+a {
+    text-decoration: none;
+    color: #1d1d1b;
+}
+
+li {
+    list-style: none;
 
 }
+
+h2 {
+    font-family: 42px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    background: #27AE60;
+    padding: 20px 36px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container{
+    width: 1420px;
+    margin: 0 auto;
+}
+
+/* hero */
+
+.hero{
+    background-image: url(../image/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100vh;
+}
+
+.header{
+display: flex;
+gap: 90px;
+align-items: center;
+margin: 0 0 320px;
+padding-top: 30px;
+}
+
+.header .menu{
+display: flex;
+gap: 58px;
+font-size: 16px;
+}
+
+.header .menu .menu-link:hover{
+    color:  #27AE60;
+}
+
+
+
