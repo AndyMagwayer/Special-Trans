@@ -38,38 +38,57 @@ h2 {
     border: none;
 }
 
-.container{
+.container {
     width: 1420px;
     margin: 0 auto;
 }
 
 /* hero */
 
-.hero{
+.hero {
     background-image: url(../image/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover ;
-    height: 100vh;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 186px;
 }
 
-.header{
-display: flex;
-gap: 90px;
-align-items: center;
-margin: 0 0 320px;
-padding-top: 30px;
+.header {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin: 0 0 320px;
+    padding-top: 30px;
 }
 
-.header .menu{
-display: flex;
-gap: 58px;
-font-size: 16px;
+.header .menu {
+    display: flex;
+    gap: 58px;
+    font-size: 16px;
 }
 
-.header .menu .menu-link:hover{
-    color:  #27AE60;
+.header .menu .menu-link:hover {
+    color: #27AE60;
 }
 
+.hero .title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    width: 700px;
+}
 
+.hero .subtitle {
+    font-size: 20px;
+    color: #fff;
+    width: 770px;
+    margin: 30px 0 60px;
+    line-height: 28px;
+}
 
+.hero .block {
+    display: inline-block;
+    background: radial-gradient(#8787877e 30%, transparent 70%);
+    backdrop-filter: blur(3px);
+}
